@@ -1,4 +1,7 @@
 :root {
+    --container-max: 1120px;
+    --container-gap-desktop: 3rem;
+    --container-gap-mobile: 1.5rem;
     --bg-soft: #f6f8fc;
     --surface: #ffffff;
     --text-main: #162132;
@@ -26,7 +29,7 @@ body {
 }
 
 .hero {
-    width: min(1120px, 100% - 3rem);
+    width: min(var(--container-max), 100% - var(--container-gap-desktop));
     margin: 1.5rem auto 2rem;
     min-height: 90vh;
     display: flex;
@@ -156,9 +159,8 @@ h1 {
     background: linear-gradient(145deg, #0b63ce, #3b89e4);
 }
 
-section {
-<<<<<<< HEAD
-    width: min(1120px, 100% - 3rem);
+.section-container {
+    width: min(var(--container-max), 100% - var(--container-gap-desktop));
     margin: 0 auto 1.25rem;
     padding: 1.1rem 1.4rem;
     background: var(--surface);
@@ -196,7 +198,7 @@ section {
 
 @media (max-width: 768px) {
     .hero {
-        width: min(1120px, 100% - 1.5rem);
+        width: min(var(--container-max), 100% - var(--container-gap-mobile));
         min-height: auto;
         flex-direction: column-reverse;
         text-align: center;
@@ -224,13 +226,9 @@ section {
         width: clamp(200px, 52vw, 290px);
     }
 
-    section {
-        width: min(1120px, 100% - 1.5rem);
+    .section-container {
+        width: min(var(--container-max), 100% - var(--container-gap-mobile));
     }
-<<<<<<< HEAD
-=======
-    margin-bottom: 20px;
->>>>>>> feature-skills
 }
 
 .skills-section {
@@ -327,10 +325,6 @@ section {
 }
 
 @media (max-width: 768px) {
-    body {
-        margin: 24px;
-    }
-
     .skills-section {
         padding: 18px;
     }
@@ -357,16 +351,11 @@ h3 {
 
 input,
 textarea {
-    width: 300px;
+    width: min(100%, 360px);
     padding: 8px;
 }
 
 button {
     padding: 8px 15px;
     cursor: pointer;
-<<<<<<< HEAD
-=======
->>>>>>> hero-section
-=======
->>>>>>> feature-skills
 }
