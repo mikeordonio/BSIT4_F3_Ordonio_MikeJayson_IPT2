@@ -3,23 +3,44 @@
 
 <head>
     <title>Mike Ordonio Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 
 <body>
 
-    <h1>Mike Jayson Ordonio</h1>
-    <p>BSIT Student | Frontend Developer | Aspiring Software Developer</p>
+    <section class="hero">
+        <div class="hero-content">
+            <p class="hero-tag">Portfolio</p>
+            <h1>Mike Jayson Ordonio</h1>
+            <p class="hero-subtitle">BSIT Student | Frontend Developer | Aspiring Software Engineer</p>
+            <p class="hero-intro">
+                I build clean, responsive, and user-focused web experiences while continuously improving my skills in
+                modern frontend development and software engineering.
+            </p>
+            <div class="hero-actions">
+                <a class="btn btn-primary" href="./CV.pdf" download="Mike_Jayson_Ordonio_CV.pdf">Download Resume</a>
+                <a class="btn btn-secondary" href="mailto:mikeordonio@gmail.com">Contact Me</a>
+            </div>
+        </div>
+
+        <div class="hero-image-wrap">
+            <img src="./1.jpg" alt="Profile photo of Mike Jayson Ordonio" class="hero-image"
+                onerror="this.style.display='none'; document.getElementById('photo-fallback').style.display='flex';">
+            <div id="photo-fallback" class="hero-image-fallback" aria-label="Photo placeholder">MJ</div>
+        </div>
+    </section>
+
     <section>
         <h2>About Me</h2>
-        <p>
-            Hello! I am Mike Jayson Ordonio, a Bachelor of Science in Information Technology
-            student at Mindoro State University. I am passionate about web development,
-            software development, and emerging technologies.
-        </p>
+        <p>BSIT student from Mindoro State University.</p>
     </section>
-    <section class="skills-section">
+
+     <section class="skills-section">
         <h2>Skills</h2>
 
         <div class="skills-grid">
@@ -145,6 +166,7 @@
             <button type="submit">Send Message</button>
         </form>
     </section>
+
 
 </body>
 
