@@ -157,6 +157,7 @@ h1 {
 }
 
 section {
+<<<<<<< HEAD
     width: min(1120px, 100% - 3rem);
     margin: 0 auto 1.25rem;
     padding: 1.1rem 1.4rem;
@@ -227,6 +228,9 @@ section {
         width: min(1120px, 100% - 1.5rem);
     }
 <<<<<<< HEAD
+=======
+    margin-bottom: 20px;
+>>>>>>> feature-skills
 }
 
 .skills-section {
@@ -360,6 +364,9 @@ textarea {
 button {
     padding: 8px 15px;
     cursor: pointer;
+<<<<<<< HEAD
 =======
 >>>>>>> hero-section
+=======
+>>>>>>> feature-skills
 }
