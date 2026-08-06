@@ -7,7 +7,7 @@ Mike Jayson Ordonio
 BSIT IV-F3
 
 ## Project Description
-A simple portfolio website showcasing personal information, skills, and contact details.
+A simple portfolio for myself with my personal information, skills, and contact details.
 
 ## Technologies Used
 - HTML
