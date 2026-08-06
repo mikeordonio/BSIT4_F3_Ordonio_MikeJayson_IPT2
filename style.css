@@ -226,6 +226,7 @@ section {
     section {
         width: min(1120px, 100% - 1.5rem);
     }
+<<<<<<< HEAD
 }
 
 .skills-section {
@@ -359,4 +360,6 @@ textarea {
 button {
     padding: 8px 15px;
     cursor: pointer;
+=======
+>>>>>>> hero-section
 }
