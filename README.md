@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Personal Portfolio Website
 
 ## Student Name
@@ -15,7 +14,3 @@ A simple portfolio website showcasing personal information, skills, and contact 
 - CSS
 - Git
 - GitHub
-=======
-# BSIT4_F3_Ordonio_MikeJayson_IPT2
-Simple portfolio
->>>>>>> c34a30fca3819545df8cc69384a31675e8fcbfe6
