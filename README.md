@@ -1,0 +1,2 @@
+# BSIT4_F3_Ordonio_MikeJayson_IPT2
+Simple portfolio
